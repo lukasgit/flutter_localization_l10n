@@ -30,12 +30,11 @@ import 'package:intl/intl.dart';
 // Dart intl tools. With the app's root directory (the one that contains
 // pubspec.yaml) as the current directory:
 //
-// mkdir l10n-arb; flutter pub pub run intl_translation:extract_to_arb --output-dir=l10n-arb lib/localization.dart
+// mkdir l10n-extracted; flutter pub pub run intl_translation:extract_to_arb --output-dir=l10n-extracted lib/localization.dart
 // flutter pub pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/localization.dart l10n-translated/*/l10n/intl_messages_*.arb
-// rm -rf l10n-arb
 //
 // The first flutter pub command generates intl_messages.arb and
-// the third generates messages_all.dart. There's more about this process in
+// the second generates messages_all.dart. There's more about this process in
 // https://pub.dev/packages/intl.
 //
 // Use the included script in the app's scripts directory to integrate
